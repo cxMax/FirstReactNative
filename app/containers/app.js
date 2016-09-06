@@ -5,7 +5,7 @@ import React from 'react-native';
 import LoadingViewAndroid from  '../components/LoadingView';
 import {ToastShort} from '../utils/ToastUtils';
 import {NaviGoBack} from '../utils/CommonUtils';
-
+import Splash from '../pages/Splash';
 const {
     StyleSheet,
     Navigator,
