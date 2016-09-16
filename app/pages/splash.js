@@ -1,18 +1,19 @@
 /**
  * Created by Administrator on 2016/9/7.
  */
+import React from 'react-native';
 const {
     Dimensions,
     Image,
     InteractionManager
     } = React;
 
-import  MainContainer from '../containers/MainContainer';
+import MainContainer from '../containers/MainContainer';
 
-var {height , width} = Dimensions.get('window');
+var {height, width} = Dimensions.get('window');
 
 class Splash extends React.Component {
-    constructor(props){
+    constructor (props) {
         super(props);
     }
 
